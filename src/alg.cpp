@@ -3,10 +3,10 @@
 int gcd(int a, int b) {
     
     if (a % b == 0)
-        return a;
+        return b;
     
     if (b % a == 0)
-        return b;
+        return a;
     
     if (a > b)
         return (a, b % a);
