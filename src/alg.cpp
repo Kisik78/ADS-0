@@ -6,6 +6,6 @@ int gcd(int a, int b) {
     if (b % a == 0)
         return a;    
     if (a > b)
-        return (a % b, b);
-    return (a, b % a);
+        return(a % b, b);
+    return(a, b % a);
 }
